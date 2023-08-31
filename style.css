@@ -1,0 +1,456 @@
+
+
+:root
+{ 
+--black: black;
+--lighting-color: black;
+--box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+*
+{
+	font-family: 'Roboto',sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border:  none;
+	outline: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+html
+{
+ font-size: 62.5%;
+ overflow: scroll;
+ overflow-x: hidden; 
+ scroll-behavior: smooth;
+
+
+}
+
+/*navbar style start*/
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: var(--black);
+	padding: 1rem 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: var(--box-shadow: );
+	color:#D7C49EFF;
+
+}
+
+header .logo img
+{
+	height: auto;
+}
+header .navbar a
+{
+	font-size: 2.1rem;
+	padding: .5rem 2.1rem;
+	color: var(--light-color);
+	border: .1rem solid transparent;
+
+}
+header .navbar  a.active,
+header .navbar a:hover
+{
+	color: silver;
+	border: .1rem solid rgba(205,170,130,0,4);
+}
+header .icons i
+{
+	cursor: pointer;
+	margin-left: .6rem;
+	height: 4.5rem;
+	width: 4.5rem;
+	line-height: 5.0rem;
+	background: var(--light-color);
+
+
+}
+
+
+
+
+
+.Home .Home-slider .slide1
+
+{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	justify-content: flex-start;
+    color: whitesmoke;
+	background-image: url('high-angle-desktop-with-succulents-notebook.jpg');
+	 background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 
+	
+		}	
+.Home .Home-slider .slide1 .content
+{
+	text-align: center;
+	padding: 15rem;
+	font-size: 16pt
+}
+.Home .Home-slider .slide1 .content p
+{
+	color: lightyellow;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	padding: .5rem 0;
+	line-height: 1.5;
+	font-weight: 100
+
+
+}
+.btn
+{
+	display: inline-block;
+	font-size: 2.8rem;
+	color:#D7C49EFF ;
+	border: .1rem solid rgb(206, 170, 125,0.3);
+	background: black;
+	cursor: pointer;
+	padding: .8rem 3rem;
+}
+.btn{
+	box-shadow: 0 0 5px white,
+	0 0 25px white;
+}
+.btn:hover{
+	box-shadow:0 0 5px silver,
+	0 0 25px #D7C49EFF,0 0 50px silver,
+	0 0 100px silver;
+	
+}
+
+
+
+.about-me {
+  background-color:black;
+  padding: 7rem 0;
+}
+.about-me .about-heading {
+  color: #D7C49EFF;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+}
+.about-content img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  border-radius:25%  10%;
+
+}
+
+.about-content p {
+  font-size: 3.2rem;
+  color: #D7C49EFF;
+  padding: 0 2.3rem;
+  text-align: center;
+}
+
+
+
+
+
+.about-content .center-content {
+  flex-basis: 45%;
+  text-align: center;
+}
+.about-content .right-content {
+  flex-basis: 45%;
+}
+
+
+
+
+
+
+.bg-lightgrey {
+	background-color:white;
+}
+.edu-skl {
+	padding: 10px 0px;
+	width: 48%;
+	margin: 1%;
+	padding-left: 10px;
+
+}
+.skills-list {
+	width: 100%;
+	padding: 30px 10px;
+	background: black;
+	margin-bottom: 20px;
+	
+}
+
+.skills-content {
+	width: 100%;
+	margin-left: 10px;
+
+}
+.skills-content h2 {
+
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: white
+}
+.skills-content h3 {
+	color: white;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+.skills-content p {
+	font-size: 15px;
+	color: #D7C49EFF
+}
+
+.portfolio {
+  background: black;
+  padding: 6rem 0;
+}
+
+
+
+.proj-heading h1 {
+  text-align: center;
+  color:#D7C49EFF;
+    font-size: 3.3rem;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+
+
+.proj-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proj-1 img {
+  height: 330px;
+  width: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
+  margin-right: 1.7rem;
+}
+
+
+.proj-1  h2 {
+  font-size: 2rem;
+  color: #D7C49EFF;
+}
+.proj-1 p {
+  font-size: 1.3rem;
+  color:white;
+  font-weight: 600;
+}
+
+.proj-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proj-2 img {
+  height: 330px;
+  width: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
+  margin-right: 1.7rem;
+}
+
+
+.proj-2  h2 {
+  font-size: 2rem;
+  color: #D7C49EFF;
+}
+.proj-2 p {
+  font-size: 1.3rem;
+  color:white;
+  font-weight: 600;
+}
+
+.proj-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proj-3 img {
+  height: 330px;
+  width: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
+  margin-right: 1.7rem;
+}
+
+
+.proj-3  h2 {
+  font-size: 2rem;
+  color:#D7C49EFF;
+}
+.proj-3 p {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+}
+
+
+
+.contact {
+  background: black;
+  position: relative;
+  height: 92vh;
+}
+.contact-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.contact-content h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #D7C49EFF;
+  padding-bottom: 0.5rem;
+}
+.contact-content .mail {
+  color: white;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
+}
+.contact-content .links {
+  color: #D7C49EFF;
+  padding: 0.5rem;
+  padding-bottom: 1.8rem;
+  font-size: 1rem;
+}
+.contact-content a {
+  text-decoration: none;
+  color: #D7C49EFF;
+  padding: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+.contact-content a:hover {
+  color: #f0f0e6;
+}
+
+
+
+@media (max-width: 991px)
+{
+	html
+	{
+		font-size: 60%
+	}
+	header
+	{
+		padding: 1rem 2rem;
+
+	}
+	heading .logo img
+	{
+		height: 7rem;
+
+	}
+}
+@media (max-width: 780px)
+{
+	 header .logo img
+	 {
+	 	height: 7rem;
+
+	 }
+	 header ,icons #menu
+	 {
+	 	display: inline-block;
+
+	 }
+	 header .navbar
+	 {
+	 	position: absolute;
+	 	top: 100%;
+	 	left: 0;
+	 	right: 0;
+	 	background: #eee;
+	 	border-top: .1rem solid rgba(207,170,124,0.2);
+	 	border-bottom: .1rem solid rgba(207,170,124,0.2);
+	 	padding: 1rem;
+	 	clip-path: polygon(0 0,100% 0,100% 0,0 0)
+
+}
+header .navbar.active
+{
+	clip-path: polygon(0 0,100% 0,100% ,0 100%)
+
+}
+header .navbar a
+{
+	display: block;
+	padding: 1.5rem;
+	margin: 1rem;
+	font-size: 3rem;
+	background: var(--black)
+}
+
+.Home .Home-slider .slide
+{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	justify-content: flex-start;
+}
+
+
+.Home .Home-slider .slide1
+{
+	justify-content: center;
+	height: 80vh
+}
+
+
+
+.Home .Home-slider .slide1 .content
+{
+	padding: 0
+}
+
+@media only screen and (max-width: 768px) {
+	.about-me {
+  background-color:black;
+  padding: 7rem 0;
+}
+.about-me .about-heading {
+  color: #D7C49EFF;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+.about-content img {
+  height: 100px;
+  width: 60px;
+  object-fit: cover;
+  border-radius:25%  10%;
+
+}
+
+.about-content p {
+  font-size: 2.2rem;
+  color: #D7C49EFF;
+  padding: 0 2.3rem;
+  text-align: center;
+}}
